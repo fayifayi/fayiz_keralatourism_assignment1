@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="form.js "> -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="images/logo.jpeg" width="100" height="50" alt="" loading="lazy">
+  
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="headlinks">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="district.html">Districts<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+          </form> -->
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-4">
+
+        </div>
+
+    <div class="col-lg-3" id="login">
+        <form action="index.html" onsubmit="return validate()" class="px-4 py-3">
+            <div class="form-group row">
+               <div class="col">
+                  <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname" placeholder="First Name">
+              </div>
+              <div class="col">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" id="lname" placeholder="Last Name">
+              
+              </div>
+                </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="email@example.com">
+            <label for="error" id="error"></label>
+          </div>
+          <div class="form-group">
+            <label for="pnum">Phone No</label>
+            <input type="number" class="form-control" id="pnum" placeholder="Phone No">
+          
+
+          </div>
+          <div class="form-group">
+            <label for="pwd1">Password</label>
+            <input type="password" class="form-control" id="pwd1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="pwd1">Re-enter Password</label>
+            <input type="password" class="form-control" id="pwd1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary"><a href="index.html" id="sign-box">Sign Up</a></button>
+        </form>
+        <script src="form.js"></script>
+        
+    </div>
+    <div class="col-lg-4">
+
+    </div>
+    </div>
+    <!-- <nav class="navbar bottom navbar-dark bg-dark" id="footer">
+        <a class="navbar-brand" >CopyRight@2020</a>
+    </nav> -->
+</body>
+</html>

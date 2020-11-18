@@ -1,0 +1,54 @@
+
+#homecover img{
+    height: 750px;
+}
+#footer{
+    background-color: black;
+    height: 40px;
+   
+}
+#footer a{
+    color: white;
+    float: none;
+    margin-left: 90%;
+    font-size: small;
+    
+    padding: .5em;
+
+}
+#sign-box{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#login-box{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#dist-box{
+    padding: 1em;
+
+}
+#distcover{
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: black;
+}
+#distcover p{
+    color: darkorange;
+}
+#distcover img{
+    height: 500px;
+}
+#distcover h2{
+    color: red;
+}
+#homecover .carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+#homecover .carousel-caption h2{
+    color: darkgray;
+}
