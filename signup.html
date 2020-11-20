@@ -37,13 +37,14 @@
           </form> -->
         </div>
     </nav>
-    <div class="row">
+    <h2 id="sign-head"><center>SIGN UP</center></h2>
+    <div class="row" id="signup-box">
         <div class="col-lg-4">
 
         </div>
 
-    <div class="col-lg-3" id="login">
-        <form action="index.html" onsubmit="return validate()" class="px-4 py-3">
+    <div class="col-lg-4" id="login">
+        <form  action="index.html" onsubmit="return validate()" class="px-4 py-3">
             <div class="form-group row">
                <div class="col">
                   <label for="fname">First Name</label>
@@ -58,23 +59,23 @@
           <div class="form-group">
             <label for="email">Email address</label>
             <input type="email" class="form-control" id="email" placeholder="email@example.com">
-            <label for="error" id="error"></label>
+            <!-- <label for="error" id="error"></label> -->
           </div>
           <div class="form-group">
-            <label for="pnum">Phone No</label>
-            <input type="number" class="form-control" id="pnum" placeholder="Phone No">
+            <label for="phone">Phone No</label>
+            <input type="text" class="form-control" id="phone" placeholder="Phone No" >
           
 
           </div>
           <div class="form-group">
-            <label for="pwd1">Password</label>
-            <input type="password" class="form-control" id="pwd1" placeholder="Password">
+            <label for="pwd">Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
           </div>
           <div class="form-group">
-            <label for="pwd1">Re-enter Password</label>
-            <input type="password" class="form-control" id="pwd1" placeholder="Password">
+            <label for="cpwd">Re-enter Password</label>
+            <input type="password" class="form-control" id="cpwd" placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-primary"><a href="index.html" id="sign-box">Sign Up</a></button>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
         </form>
         <script src="form.js"></script>
         

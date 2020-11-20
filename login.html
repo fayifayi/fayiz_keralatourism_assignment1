@@ -37,20 +37,21 @@
           </form> -->
         </div>
     </nav>
-    <div class="row">
+    <h2 id="sign-head">LOGIN</h2>
+    <div class="row" id="signup-box">
         <div class="col-lg-4">
 
         </div>
 
-    <div class="col-lg-3" id="login">
-        <form class="px-4 py-3">
+    <div class=" col-lg-4" id="login">
+        <form method="POST" action="index.html" onsubmit="return signin()" class="px-4 py-3">
           <div class="form-group">
-            <label for="exampleDropdownFormEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="email@example.com">
           </div>
           <div class="form-group">
-            <label for="exampleDropdownFormPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            <label for="pwd">Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
           </div>
           <div class="form-group">
             <div class="form-check">
@@ -60,12 +61,14 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary"><a href="index.html" id="login-box">Sign in</a></button>
+          <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
+        <script src="loginform.js"></script>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="signup.html">New around here? Sign up</a>
         
     </div>
+    
     <div class="col-lg-4">
 
     </div>
